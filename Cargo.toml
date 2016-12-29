@@ -1,0 +1,11 @@
+[package]
+name = "cstring"
+version = "0.1.0"
+authors = ["Vladimir Lushnikov <vladimir@vladimir.lu>"]
+
+[dependencies]
+libc = "^0.2"
+
+[lib]
+name = "cstring"
+crate-type = ["cdylib"]
